@@ -8,11 +8,11 @@ struct Tokenizer<'a> {
     remaining: &'a str,  // TODO: lifetime
 }
 
-impl Tokenizer<'_> {
+impl<'a> Tokenizer<'a> {
     /// Crea un nuovo Tokenizer dal testo dato.
     /// 
     /// TODO: Aggiungi i lifetime corretti
-    pub fn new<'a>(text: &'a str) -> Tokenizer<'a> {
+    pub fn new(text: &'a str) -> Tokenizer<'a> {
         Tokenizer { remaining: text }
     }
 }
