@@ -1,5 +1,3 @@
-// src/main.rs
-
 /// Una coppia chiave-valore che contiene riferimenti a una stringa esistente.
 /// 
 /// TODO: Aggiungi il lifetime parameter corretto

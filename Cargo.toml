@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "find_longest_and_shortest_word",
+    "parser_key_value",
+]
+
+resolver = "3"
