@@ -1,7 +1,7 @@
 [workspace]
 members = [
     "find_longest_and_shortest_word",
-    "parser_key_value", "tokenizer",
+    "parser_key_value", "lifetime_elision", "tokenizer",
 ]
 
 resolver = "3"

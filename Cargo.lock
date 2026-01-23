@@ -7,6 +7,10 @@ name = "find_longest_and_shortest_word"
 version = "0.1.0"
 
 [[package]]
+name = "lifetime_elision"
+version = "0.1.0"
+
+[[package]]
 name = "parser_key_value"
 version = "0.1.0"
 
